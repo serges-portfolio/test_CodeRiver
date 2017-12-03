@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Men Clothes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+<header class="header">
+    <div class="header__logo-container">
+        <a href="#" class="header__logo">
+            <img src="assets/logo.svg" alt="logo">
+        </a>
+    </div>
+    <input type="checkbox" class="header__checkbox" id="burger">
+    <label class="header__burger" for="burger">menu</label>
+    <ul class="header__menu">
+        <li class="header__menu-item">
+            <a href="">Home</a>
+        </li>
+        <li class="header__menu-item">
+            <a href="">Products</a>
+        </li>
+        <li class="header__menu-item">
+            <a href="">Lookbook</a>
+        </li>
+        <li class="header__menu-item">
+            <a href="">Collection</a>
+        </li>
+    </ul>
+    <div class="header__autorization">
+        <button class="header__button">Bag</button>
+        <button class="header__button">Login</button>
+        <button class="header__button">Sing up</button>
+    </div>
+
+
+</header>
+<main class="goods">
+    <section class="goods__item-container">
+        <img class="goods__item-thumbnail" id="back-thumb" src="assets/photo-thumb1.png" alt="bag1">
+        <img class="goods__item-thumbnail" id="front-thumb" src="assets/photo-thumb2.png" alt="bag2">
+        <img class="goods__item" src="assets/bag.png" alt="bag">
+        <img class="goods__zoom-item" id="back-zoom" src="assets/photo-thumb1.png" alt="bag1-zoom">
+        <img class="goods__zoom-item" id="front-zoom" src="assets/photo-thumb2.png" alt="bag2-zoom">
+    </section>
+    <section class="goods__description">
+        <h3 class="goods__par">Men Clothes > Coat & Jacket</h3>
+        <h1 class="goods__item-name">LIGHTWEIGHT NYLON KNITWEAT IN BLACK</h1>
+        <h2 class="goods__price">$48.00</h2>
+        <h2 class="goods__description-banner">Description</h2>
+        <p class="goods__specification">            Cras efficitur iaculis sapien, vel tincidunt magna egestas at. Nunc finibus, metus id
+            fermentum. Cras efficitur iaculis sapien, vel tincidunt magna egestas at, vel tincidunt
+            magna egestas at cras effcitur.
+            Cras efficitur iaculis sapien, vel tincidunt magna egestas at. Nunc finibus, metus id
+            fermentum.
+        </p>
+        <div class="goods__change-item-color">
+            <p>Colors</p>
+            <div class="goods__color-value">
+                <label class="goods__color-choice"><input type="radio" name="color"><i></i></label>
+                <h4>Blue</h4>
+            </div>
+            <div class="goods__color-value">
+                <label class="goods__color-choice"><input type="radio" name="color"><i></i></label>
+                <h4>Brown</h4>
+            </div>
+
+            <!--<input type="checkbox" id="blue" name="color" value="Apple">
+            <label for="blue">Blue</label>-->
+        </div>
+        <button class="goods__buy-button">Buy now - $78</button>
+    </section>
+</main>
+<footer class="other-goods">
+    <h3 class="other-goods__our-things">We thought</h3>
+    <h2 class="other-goods__banner">you might like this too...</h2>
+    <section class="other-goods__item-container">
+        <div class="other-goods__item other-goods__empty"></div>
+        <div class="other-goods__item">
+            <div class="other-goods__image-container">
+                <img src="assets/product1.png" alt="product1">
+            </div>
+            <div class="other-goods__product-description">
+                <h4>leather bag</h4>
+                <h5>$78</h5>
+                <p>Bag</p>
+            </div>
+        </div>
+        <div class="other-goods__item">
+            <div class="other-goods__image-container">
+                <img src="assets/product2.png" alt="product2">
+            </div>
+            <div class="other-goods__product-description">
+                <h4>gift box colors</h4>
+                <h5>$78</h5>
+                <p>Gift</p>
+            </div>
+        </div>
+        <div class="other-goods__item">
+            <div class="other-goods__image-container">
+                <img src="assets/product3.png" alt="product3">
+            </div>
+            <div class="other-goods__product-description">
+                <h4>flyknit lunar 3</h4>
+                <h5>$78</h5>
+                <p>Running Shoes</p>
+            </div>
+        </div>
+        <div class="other-goods__item">
+            <div class="other-goods__image-container">
+                <img src="assets/product4.png" alt="product4">
+            </div>
+            <div class="other-goods__product-description">
+                <h4>wallets leather</h4>
+                <h5>$78</h5>
+                <p>Accessories</p>
+            </div>
+        </div>
+        <div class="other-goods__item">
+            <div class="other-goods__image-container">
+                <img src="assets/product5.png" alt="product5">
+            </div>
+            <div class="other-goods__product-description">
+                <h4>shoes man</h4>
+                <h5>$78</h5>
+                <p>Running Shoes</p>
+            </div>
+        </div>
+        <div class="other-goods__item other-goods__empty"></div>
+    </section>
+</footer>
+<script src="js/thumbail-zoom.js"></script>
+</body>
+</html>
